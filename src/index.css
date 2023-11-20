@@ -77,6 +77,13 @@ body {
   margin: 2rem 0;
 }
 
+/* This style applies when the screen width is less than 768px (typical mobile screens) */
+@media (max-width: 768px) {
+  #welcome-header-content h1 {
+    font-size: 2rem; /* Adjust the font size for mobile screens */
+  }
+}
+
 #cta-link {
   display: inline-block;
   padding: 0.5rem 1rem;
